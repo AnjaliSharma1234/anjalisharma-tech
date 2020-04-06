@@ -23,7 +23,7 @@ sections:
       Phasellus lacinia, ullamcorper laoreet, lectus arcu pulvinar lorem ipsum interdum
       sed tempus sagittis lorem feugiat. In fringilla diet consectetur. Morbi libero
       orci, consectetur in odio maximus felis.
-  - title: Phasellus libero eu sed augue gravida
+  - title: Speaker
     icon:
       enabled: true
       icon: fa-pie-chart
