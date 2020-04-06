@@ -6,7 +6,7 @@ banner:
   actions:
   - label: Learn More
     url: "/posts"
-    is_primary: true
+    is_primary: false
     is_scrolly: true
     is_huge: true
 sections:
