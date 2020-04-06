@@ -2,7 +2,7 @@
 title: home
 banner:
   title: ANJALI SHARMA
-  subtitle: Hi, I am Anjali
+  subtitle: Hello World
   actions:
   - label: Learn More
     url: "/no-sidebar"
