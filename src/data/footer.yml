@@ -5,7 +5,7 @@ about:
   text: ''
   actions:
   - url: https://anjalisharma.tech/
-    is_primary: true
+    is_primary: false
     is_scrolly: true
     label: GET IN TOUCH
 contact_methods:
