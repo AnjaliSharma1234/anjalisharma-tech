@@ -2,9 +2,7 @@
 about:
   enabled: true
   title: ABOUT ME
-  text: I am a pre-final year undergraduate who loves to solve problems, manage people
-    and create extremely innovative jokes ( lame is what other people call it who
-    don't understand ).
+  text: ''
   actions:
   - url: https://anjalisharma.tech/
     is_primary: true
