@@ -1,0 +1,73 @@
+---
+label: Footer Configuration
+hide_body: true
+is_partial: false
+fields:
+  - type: field_group
+    name: about
+    label: About Section
+    fields:
+      - type: boolean
+        name: enabled
+        label: Display About Section
+        description: Displays the about section in the site footer
+        default: false
+      - type: text
+        name: title
+        label: Section Title
+        description: The bold text displayed at the top of the about section
+      - type: textarea
+        name: text
+        label: Section Text
+        description: The text displayed below the section title
+        config:
+          wysiwyg: true
+          schema:
+            format: markdown
+      - type: field_group_list
+        name: actions
+        label: Section Action Buttons
+        fields:
+          - type: include
+            name: include_action
+            label: Action
+            template: action
+        config:
+          labelField: label
+  - type: field_group
+    name: contact_methods
+    label: Contact Methods Section
+    fields:
+      - type: boolean
+        name: enabled
+        label: Display Contact Methods
+        description: Displays the contact methods section
+        default: false
+      - type: blocks
+        name: methods_col1
+        label: Contact Methods Column 1
+        description: A list of contact methods to be displayed in the first column
+        template_types:
+          - contact_with_link
+          - contact_with_text
+      - type: blocks
+        name: methods_col2
+        label: Contact Methods Column 2
+        description: A list of contact methods to be displayed in the second column
+        template_types:
+          - contact_with_link
+          - contact_with_text
+  - type: field_group
+    name: copyright
+    label: Copyright Section
+    description: The copyright section displayed at the bottom of the site footer
+    fields:
+      - type: boolean
+        name: enabled
+        label: Display Copyright Text
+        description: Displays the copyright text at the bottom of the page
+        default: false
+      - type: text
+        name: text
+        label: Copyright Text
+        description: The copyright text displayed next to the footer menu

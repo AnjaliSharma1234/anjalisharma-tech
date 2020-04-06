@@ -1,0 +1,25 @@
+{
+    "title": "Archetype",
+    "landing_template": "home",
+    "palette": "blue",
+    "palettes": {
+        "blue": {
+            "sass": {
+                "gradient1": "#27a1e3",
+                "gradient2": "#e7232a",
+                "accent1": "#5f9dd2",
+                "accent2": "#758ce1",
+                "accent3": "#e286a9"
+            }
+        },
+        "green": {
+            "sass": {
+                "gradient1": "#16f4cf",
+                "gradient2": "#6532e5",
+                "accent1": "#54d3cf",
+                "accent2": "#4f92d1",
+                "accent3": "#8075e5"
+            }
+        }
+    }
+}

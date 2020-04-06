@@ -1,0 +1,101 @@
+---
+label: Post
+is_partial: false
+fields:
+  - type: text
+    name: title
+    label: Post Title
+    description: The bold text displayed at the top of the post
+    config:
+      required: true
+  - type: textarea
+    name: subtitle
+    label: Post Subtitle
+    description: The text displayed below the post title
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: textarea
+    name: excerpt
+    label: Post Excerpt
+    description: The excerpt displayed in any post thumbnails
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: field_group
+    name: content_img
+    label: Content Image
+    description: The image displayed above the post content
+    fields:
+      - type: boolean
+        name: enabled
+        label: Display Content Image
+        description: Displays the post content image
+        default: false
+      - type: file
+        name: path
+        label: Image
+      - type: text
+        name: url
+        label: URL
+        description: The URL used in the image hyperlink
+        default: '#'
+  - type: file
+    name: alt_img
+    label: Alternate Image
+    description: The image displayed in any post thumbnails
+  - type: field_group
+    name: sidebar
+    label: Sidebar
+    description: The sidebar displayed beside the post content
+    fields:
+      - type: boolean
+        name: enabled
+        label: Display post Sidebar
+        description: Displays the post sidebar
+        default: false
+      - type: select
+        name: side
+        label: Sidebar Position
+        description: The side of the post the sidebar is to be displayed
+        default: left
+        config:
+          source:
+            type: custom
+          options:
+            - left
+            - right
+  - type: datetime
+    name: date
+    label: Post Date
+    description: The date the post was created
+    config:
+      required: true
+  - type: boolean
+    name: show_in_home_posts
+    label: Show In Home Posts
+    description: Displays the post in the home posts section
+    default: false
+  - type: boolean
+    name: show_in_sidebar
+    label: Show In Sidebars
+    description: Displays the post ina all page sidebars
+    default: false
+  - type: text
+    name: template
+    label: Template
+    hidden: true
+    default: page
+    config:
+      required: true
+pages:
+  - src/pages/posts/post-01.md
+  - src/pages/posts/post-02.md
+  - src/pages/posts/post-03.md
+  - src/pages/posts/post-04.md
+  - src/pages/posts/post-05.md
+  - src/pages/posts/post-06.md
+  - src/pages/posts/post-07.md
+  - src/pages/posts/post-08.md

@@ -1,0 +1,71 @@
+---
+label: Page
+is_partial: false
+fields:
+  - type: text
+    name: title
+    label: Page Title
+    description: The bold text displayed at the top of the page
+    config:
+      required: true
+  - type: textarea
+    name: subtitle
+    label: Page Subtitle
+    description: The text displayed below the page title
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: field_group
+    name: content_img
+    label: Content Image
+    description: The image displayed above the page content
+    fields:
+      - type: boolean
+        name: enabled
+        label: Display Content Image
+        description: Displays the page content image
+        default: false
+      - type: file
+        name: path
+        label: Image
+      - type: text
+        name: url
+        label: URL
+        description: The URL used in the image hyperlink
+        default: '#'
+  - type: field_group
+    name: sidebar
+    label: Sidebar
+    description: The sidebar displayed beside the page content
+    fields:
+      - type: boolean
+        name: enabled
+        label: Display Page Sidebar
+        description: Displays the page sidebar
+        default: false
+      - type: select
+        name: side
+        label: Sidebar Position
+        description: The side of the page the sidebar is to be displayed
+        default: left
+        config:
+          source:
+            type: custom
+          options:
+            - left
+            - right
+  - type: text
+    name: template
+    label: Template
+    hidden: true
+    default: page
+    config:
+      required: true
+pages:
+  - src/pages/contact.md
+  - src/pages/left-sidebar.md
+  - src/pages/no-sidebar.md
+  - src/pages/privacy.md
+  - src/pages/right-sidebar.md
+  - src/pages/terms.md
