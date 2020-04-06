@@ -5,7 +5,7 @@ banner:
   subtitle: Hello World
   actions:
   - label: Learn More
-    url: "/Footer-Configuration"
+    url: "/posts"
     is_primary: true
     is_scrolly: true
     is_huge: true
