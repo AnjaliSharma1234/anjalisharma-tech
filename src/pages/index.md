@@ -14,7 +14,7 @@ sections:
   template: features
   section_id: features
   features:
-  - title: Integer vitae consequat sed magna feugiat
+  - title: Software Developer
     icon:
       enabled: true
       icon: fa-area-chart
