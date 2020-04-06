@@ -23,6 +23,12 @@ sections:
       Phasellus lacinia, ullamcorper laoreet, lectus arcu pulvinar lorem ipsum interdum
       sed tempus sagittis lorem feugiat. In fringilla diet consectetur. Morbi libero
       orci, consectetur in odio maximus felis.
+  - title: Digital Marketer
+    icon:
+      enabled: false
+      icon: ''
+      style: ''
+    description: ''
   - title: Speaker
     icon:
       enabled: true
