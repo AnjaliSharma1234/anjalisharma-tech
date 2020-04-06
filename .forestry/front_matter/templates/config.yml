@@ -1,51 +1,50 @@
 ---
 label: Config
 hide_body: true
-is_partial: false
 fields:
-  - type: text
-    name: title
-    label: Title
-    description: Site title
-    config:
-      required: true
-  - type: text
-    name: landing_template
-    label: Landing Template
-    hidden: true
-    default: home
-    config:
-      required: true
-  - type: select
-    name: palette
-    label: Color Palette
-    description: The color palette used for the site
-    default: blue
-    config:
-      required: true
-      source:
-        type: custom
-      options:
-        - blue
-        - green
+- type: text
+  name: title
+  label: Title
+  description: Site title
+  config:
+    required: true
+- type: text
+  name: landing_template
+  label: Landing Template
+  hidden: true
+  default: home
+  config:
+    required: true
+- type: select
+  name: palette
+  label: Color Palette
+  description: The color palette used for the site
+  default: blue
+  config:
+    required: true
+    source:
+      type: custom
+    options:
+    - blue
+    - green
+- type: field_group
+  name: palettes
+  label: Palettes
+  hidden: true
+  fields:
   - type: field_group
-    name: palettes
-    label: Palettes
-    hidden: true
+    name: blue
+    label: Blue
     fields:
-      - type: field_group
-        name: blue
-        label: Blue
-        fields:
-          - type: include
-            name: include_palette
-            label: Palette
-            template: palette
-      - type: field_group
-        name: green
-        label: Green
-        fields:
-          - type: include
-            name: include_palette
-            label: Palette
-            template: palette
+    - type: include
+      name: include_palette
+      label: Palette
+      template: palette
+  - type: field_group
+    name: green
+    label: Green
+    fields:
+    - type: include
+      name: include_palette
+      label: Palette
+      template: palette

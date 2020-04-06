@@ -1,34 +1,33 @@
 ---
 label: Palette
 hide_body: true
-is_partial: true
 fields:
-  - type: field_group
-    name: sass
-    label: SASS
-    fields:
-      - type: color
-        name: gradient1
-        label: Gradient 1
-        config:
-          color_format: Hex
-      - type: color
-        name: gradient2
-        label: Gradient 2
-        config:
-          color_format: Hex
-      - type: color
-        name: accent1
-        label: accent 1
-        config:
-          color_format: Hex
-      - type: color
-        name: accent2
-        label: accent 2
-        config:
-          color_format: Hex
-      - type: color
-        name: accent3
-        label: accent 3
-        config:
-          color_format: Hex
+- type: field_group
+  name: sass
+  label: SASS
+  fields:
+  - type: color
+    name: gradient1
+    label: Gradient 1
+    config:
+      color_format: Hex
+  - type: color
+    name: gradient2
+    label: Gradient 2
+    config:
+      color_format: Hex
+  - type: color
+    name: accent1
+    label: accent 1
+    config:
+      color_format: Hex
+  - type: color
+    name: accent2
+    label: accent 2
+    config:
+      color_format: Hex
+  - type: color
+    name: accent3
+    label: accent 3
+    config:
+      color_format: Hex

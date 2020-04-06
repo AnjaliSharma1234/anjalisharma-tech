@@ -1,29 +1,28 @@
 ---
 label: Contact With Text
 hide_body: true
-is_partial: true
 display_field: title
 fields:
-  - type: text
-    name: title
-    label: Method Title
-    description: The title of the contact method
-    config:
-      required: true
-  - type: text
-    name: icon
-    label: Method Icon
-    description: (Font Awesom icon) The icon displayed beside the method title
-  - type: textarea
-    name: text
-    label: Method Description
-    config:
-      required: true
-  - type: text
-    name: type
-    label: Reference Type Name
-    description: 'Name of the Stackbit object model, used by fields of type reference'
-    hidden: true
-    default: contact_with_text
-    config:
-      required: true
+- type: text
+  name: title
+  label: Method Title
+  description: The title of the contact method
+  config:
+    required: true
+- type: text
+  name: icon
+  label: Method Icon
+  description: "(Font Awesom icon) The icon displayed beside the method title"
+- type: textarea
+  name: text
+  label: Method Description
+  config:
+    required: true
+- type: text
+  name: type
+  label: Reference Type Name
+  description: Name of the Stackbit object model, used by fields of type reference
+  hidden: true
+  default: contact_with_text
+  config:
+    required: true

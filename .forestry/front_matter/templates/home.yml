@@ -1,56 +1,55 @@
 ---
 label: Home
 hide_body: true
-is_partial: false
 fields:
+- type: text
+  name: title
+  label: Page Title
+  config:
+    required: true
+- type: field_group
+  name: banner
+  label: Page Banner
+  description: The banner displayed at the top of the landing page
+  fields:
   - type: text
     name: title
-    label: Page Title
+    label: Banner Title
+    description: The bold text displayed at the top of the banner
     config:
       required: true
-  - type: field_group
-    name: banner
-    label: Page Banner
-    description: The banner displayed at the top of the landing page
+  - type: textarea
+    name: subtitle
+    label: Banner Subtitle
+    description: The text displayed below the banner title
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: field_group_list
+    name: actions
+    label: Banner Action Buttons
     fields:
-      - type: text
-        name: title
-        label: Banner Title
-        description: The bold text displayed at the top of the banner
-        config:
-          required: true
-      - type: textarea
-        name: subtitle
-        label: Banner Subtitle
-        description: The text displayed below the banner title
-        config:
-          wysiwyg: true
-          schema:
-            format: markdown
-      - type: field_group_list
-        name: actions
-        label: Banner Action Buttons
-        fields:
-          - type: include
-            name: include_action_huge
-            label: Action Huge
-            template: action_huge
-        config:
-          labelField: label
-  - type: blocks
-    name: sections
-    label: Sections
-    description: Home Sections
-    template_types:
-      - features
-      - cta
-      - posts
-  - type: text
-    name: template
-    label: Template
-    hidden: true
-    default: home
+    - type: include
+      name: include_action_huge
+      label: Action Huge
+      template: action_huge
     config:
-      required: true
+      labelField: label
+- type: blocks
+  name: sections
+  label: Sections
+  description: Home Sections
+  template_types:
+  - features
+  - cta
+  - posts
+- type: text
+  name: template
+  label: Template
+  hidden: true
+  default: home
+  config:
+    required: true
 pages:
-  - src/pages/index.md
+- src/pages/index.md

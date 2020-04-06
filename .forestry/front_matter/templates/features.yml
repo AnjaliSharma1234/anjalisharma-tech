@@ -1,73 +1,72 @@
 ---
 label: Features Section
 hide_body: true
-is_partial: true
 display_field: section_id
 fields:
+- type: text
+  name: section_id
+  label: Section Id
+  default: features
+  config:
+    required: true
+- type: field_group_list
+  name: features
+  label: Features
+  description: A list of features to be displayed in the section
+  fields:
   - type: text
-    name: section_id
-    label: Section Id
-    default: features
+    name: title
+    label: Feature Title
+    description: The bold text displayed to the right of the feature icon
     config:
       required: true
-  - type: field_group_list
-    name: features
-    label: Features
-    description: A list of features to be displayed in the section
+  - type: field_group
+    name: icon
+    label: Feature Icon
+    description: The icon displayed beside the feature title
     fields:
-      - type: text
-        name: title
-        label: Feature Title
-        description: The bold text displayed to the right of the feature icon
-        config:
-          required: true
-      - type: field_group
-        name: icon
-        label: Feature Icon
-        description: The icon displayed beside the feature title
-        fields:
-          - type: boolean
-            name: enabled
-            label: Display Icon
-            description: Displays the feature icon
-            default: false
-          - type: text
-            name: icon
-            label: Icon
-            description: Font Awesome icon
-          - type: select
-            name: style
-            label: Iconn Style
-            description: Controls the icon color
-            config:
-              source:
-                type: custom
-              options:
-                - style1
-                - style2
-                - style3
-      - type: textarea
-        name: description
-        label: Feature Description
-        description: The text displayed next to the feature title
-        config:
-          wysiwyg: true
-          schema:
-            format: markdown
+    - type: boolean
+      name: enabled
+      label: Display Icon
+      description: Displays the feature icon
+      default: false
+    - type: text
+      name: icon
+      label: Icon
+      description: Font Awesome icon
+    - type: select
+      name: style
+      label: Iconn Style
+      description: Controls the icon color
+      config:
+        source:
+          type: custom
+        options:
+        - style1
+        - style2
+        - style3
+  - type: textarea
+    name: description
+    label: Feature Description
+    description: The text displayed next to the feature title
     config:
-      labelField: title
-  - type: text
-    name: component
-    label: Component
-    hidden: true
-    config:
-      required: true
-    default: Features
-  - type: text
-    name: type
-    label: Reference Type Name
-    description: 'Name of the Stackbit object model, used by fields of type reference'
-    hidden: true
-    default: features
-    config:
-      required: true
+      wysiwyg: true
+      schema:
+        format: markdown
+  config:
+    labelField: title
+- type: text
+  name: component
+  label: Component
+  hidden: true
+  config:
+    required: true
+  default: Features
+- type: text
+  name: type
+  label: Reference Type Name
+  description: Name of the Stackbit object model, used by fields of type reference
+  hidden: true
+  default: features
+  config:
+    required: true
