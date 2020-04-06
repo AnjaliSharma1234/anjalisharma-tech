@@ -1,8 +1,8 @@
 ---
 title: home
 banner:
-  title: Anjali Sharma portfolio
-  subtitle: Sed magna in pharetra ultricies dolor sit consequat magna.
+  title: ANJALI SHARMA
+  subtitle: Hi, I am Anjali
   actions:
   - label: Learn More
     url: "/no-sidebar"
