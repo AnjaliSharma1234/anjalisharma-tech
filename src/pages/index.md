@@ -5,9 +5,9 @@ banner:
   subtitle: Hello World
   actions:
   - label: Learn More
-    url: "/no-sidebar"
-    is_primary: false
-    is_scrolly: false
+    url: "/footer"
+    is_primary: true
+    is_scrolly: true
     is_huge: true
 sections:
 - type: features
