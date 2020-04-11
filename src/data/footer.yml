@@ -7,13 +7,7 @@ about:
     solutions with planning, content marketing and public relations. I have been blessed
     with amazing parents and an extra supportive elder brother. This website compiles
     my diverse experiences and ideas.
-  actions:
-  - label: Profiles
-    url: ''
-  - url: https://anjalisharma.tech/
-    is_primary: false
-    is_scrolly: true
-    label: GET IN TOUCH
+  actions: []
 contact_methods:
   enabled: true
   methods_col1:
