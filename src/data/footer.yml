@@ -3,10 +3,10 @@ about:
   enabled: true
   title: ABOUT ME
   text: I am a young tech undergraduate having a keen interest in learning everything
-    around. I have a strong passion for public speaking, building innovative system
-    design solutions with planning, content marketing and public relations. I have
-    been blessed with amazing parents and an extra supportive elder brother. This
-    website compiles my diverse experiences and ideas.
+    around. I have a strong passion for public speaking, building innovative software
+    solutions with planning, content marketing and public relations. I have been blessed
+    with amazing parents and an extra supportive elder brother. This website compiles
+    my diverse experiences and ideas.
   actions:
   - label: Profiles
     url: ''
@@ -23,17 +23,18 @@ contact_methods:
     icon: fa-map-marker
     text: "Untitled Corp  \n1234 Fictional Road  \nSuite 5432  \nNashville, TN 00000"
   methods_col2:
-  - type: contact_with_text
-    template: contact_with_text
-    title: Phone
-    icon: fa-phone
-    text: "(000) 000-0000"
   - type: contact_with_link
     template: contact_with_link
     title: Email
     icon: fa-envelope-o
     text: information@untitled.tld
     url: "#"
+  - template: contact_with_link
+    type: contact_with_link
+    title: LinkedIn
+    icon: ''
+    url: https://www.linkedin.com/in/anjalisharmaaa/
+    text: LinkedIn
 copyright:
   enabled: true
   text: "&copy; Untitled. All rights reserved."
