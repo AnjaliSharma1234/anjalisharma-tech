@@ -2,12 +2,7 @@
 title: home
 banner:
   title: ANJALI SHARMA
-  subtitle: I am a young tech undergraduate having a keen interest in learning everything
-    around. I am most accurately identified as a Renaissance soul. I have a strong
-    passion for public speaking, building innovative system design solutions with
-    planning, content marketing and public relations. I have been blessed with amazing
-    parents and an extra supportive elder brother. This website compiles my diverse
-    experiences and ideas.
+  subtitle: A Renaissance Soul
   actions:
   - label: Learn More
     url: "/posts"
