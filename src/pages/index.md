@@ -3,7 +3,12 @@ title: Hi
 banner:
   title: ANJALI SHARMA
   subtitle: ''
-  actions: []
+  actions:
+  - url: ''
+    is_primary: false
+    is_scrolly: false
+    is_huge: false
+  detailed_text: ''
 sections:
 - type: features
   template: features
@@ -69,5 +74,7 @@ menus:
     title: Home
     weight: 1
 template: home
+socialmedia: ''
+Logs: {}
 
 ---
