@@ -17,11 +17,12 @@ about:
 contact_methods:
   enabled: true
   methods_col1:
-  - type: contact_with_text
-    template: contact_with_text
-    title: Address
-    icon: fa-map-marker
-    text: "Untitled Corp  \n1234 Fictional Road  \nSuite 5432  \nNashville, TN 00000"
+  - template: contact_with_link
+    type: contact_with_link
+    title: Email
+    icon: fa-envelope-o
+    text: iamanjalisharma@gmail.com
+    url: iamanjalisharma@gmail.com
   methods_col2:
   - type: contact_with_link
     template: contact_with_link
