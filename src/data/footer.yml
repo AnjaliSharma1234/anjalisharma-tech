@@ -45,7 +45,7 @@ contact_methods:
   - template: contact_with_link
     type: contact_with_link
     title: Instagram
-    icon: fa-instagram-square
+    icon: fa-instagram
     text: "@anjali.sharma276"
     url: https://www.instagram.com/anjali.sharma276/
 copyright:
