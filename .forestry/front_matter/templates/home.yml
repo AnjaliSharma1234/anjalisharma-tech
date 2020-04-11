@@ -9,16 +9,18 @@ fields:
     required: true
 - name: socialmedia
   type: select
-  default: []
+  default: main
   config:
-    required: false
+    required: true
     options: []
     source:
-      type: simple
-      section: 
-      file: 
-      path: 
+      type: documents
+      section: elements
+      file: src/pages/elements.md
+      path: menus
   label: SocialMedia
+  showOnly:
+    field: socialmedia
 - type: blocks
   name: sections
   label: Sections
