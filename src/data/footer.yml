@@ -27,7 +27,7 @@ contact_methods:
     template: contact_with_link
     title: Email
     icon: fa-envelope-o
-    text: information@untitled.tld
+    text: iamanjalisharmaa@gmail.com
     url: "#"
   - template: contact_with_link
     type: contact_with_link
