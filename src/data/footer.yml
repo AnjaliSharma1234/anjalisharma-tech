@@ -39,7 +39,7 @@ contact_methods:
   - template: contact_with_link
     type: contact_with_link
     title: Medium Blog
-    icon: fa-medium-square
+    icon: fa-medium
     text: "@anjalisharmaaa"
     url: https://medium.com/@anjalisharmaaa
   - template: contact_with_link
