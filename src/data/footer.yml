@@ -36,6 +36,12 @@ contact_methods:
     icon: fa-linkedin-square
     url: https://www.linkedin.com/in/anjalisharmaaa/
     text: Anjali Sharma
+  - template: contact_with_link
+    type: contact_with_link
+    title: Blog - Medium
+    icon: fa-medium-square
+    text: "@anjalisharmaaa"
+    url: https://medium.com/@anjalisharmaaa
 copyright:
   enabled: true
   text: "&copy; Untitled. All rights reserved."
