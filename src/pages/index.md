@@ -2,7 +2,7 @@
 title: home
 banner:
   title: ANJALI SHARMA
-  subtitle: A Renaissance Soul
+  subtitle: ''
   actions: []
 sections:
 - type: features
