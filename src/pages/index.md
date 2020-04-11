@@ -3,12 +3,7 @@ title: home
 banner:
   title: ANJALI SHARMA
   subtitle: A Renaissance Soul
-  actions:
-  - label: Learn More
-    url: "/posts"
-    is_primary: false
-    is_scrolly: true
-    is_huge: true
+  actions: []
 sections:
 - type: features
   template: features
