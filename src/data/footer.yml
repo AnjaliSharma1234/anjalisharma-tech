@@ -25,17 +25,11 @@ contact_methods:
     url: iamanjalisharma@gmail.com
   - template: contact_with_link
     type: contact_with_link
-    title: LinkedIn
-    icon: fa-linkedin-square
-    text: Anjali Sharma
-    url: https://www.linkedin.com/in/anjalisharmaaa/
+    title: Twitter
+    icon: fa-twitter-square
+    text: "@AnjaliiSharmaaa"
+    url: https://twitter.com/AnjaliiSharmaaa
   methods_col2:
-  - type: contact_with_link
-    template: contact_with_link
-    title: Email
-    icon: fa-envelope-o
-    text: iamanjalisharmaa@gmail.com
-    url: "#"
   - template: contact_with_link
     type: contact_with_link
     title: LinkedIn
