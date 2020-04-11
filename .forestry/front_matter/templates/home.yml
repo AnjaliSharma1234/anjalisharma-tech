@@ -7,6 +7,22 @@ fields:
   label: Page Title
   config:
     required: true
+- name: socialmedia
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: SocialMedia
+- name: Logs
+  type: field_group
+  config: {}
+  label: SocialMedia
 - type: field_group
   name: banner
   label: Page Banner
