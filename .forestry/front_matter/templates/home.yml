@@ -42,8 +42,8 @@ fields:
   description: Home Sections
   template_types:
   - features
-  - cta
   - posts
+  - cta
 - type: text
   name: template
   label: Template
