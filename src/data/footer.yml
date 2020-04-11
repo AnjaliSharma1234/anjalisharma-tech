@@ -21,8 +21,8 @@ contact_methods:
     type: contact_with_link
     title: Email
     icon: fa-envelope-o
-    text: iamanjalisharma@gmail.com
-    url: iamanjalisharma@gmail.com
+    text: iamanjalisharmaa@gmail.com
+    url: iamanjalisharmaa@gmail.com
   - template: contact_with_link
     type: contact_with_link
     title: Twitter
