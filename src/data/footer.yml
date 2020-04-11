@@ -35,6 +35,12 @@ contact_methods:
     icon: fa-linkedin-square-o
     url: https://www.linkedin.com/in/anjalisharmaaa/
     text: Anjali Sharma
+  - template: contact_with_link
+    type: contact_with_link
+    title: Twitter
+    icon: fa-twitter-square
+    text: "@AnjaliiSharmaaa"
+    url: twitter.com/AnjaliiSharmaaa
 copyright:
   enabled: true
   text: "&copy; Untitled. All rights reserved."
