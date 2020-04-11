@@ -48,6 +48,12 @@ contact_methods:
     icon: fa-medium-square
     text: "@anjalisharmaaa"
     url: https://medium.com/@anjalisharmaaa
+  - template: contact_with_link
+    type: contact_with_link
+    title: Instagram
+    icon: fa-instagram-square
+    text: "@anjali.sharma276"
+    url: https://www.instagram.com/anjali.sharma276/
 copyright:
   enabled: true
   text: "&copy; Untitled. All rights reserved."
