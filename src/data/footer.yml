@@ -29,6 +29,12 @@ contact_methods:
     icon: fa-twitter-square
     text: "@AnjaliiSharmaaa"
     url: https://twitter.com/AnjaliiSharmaaa
+  - template: contact_with_link
+    type: contact_with_link
+    title: Github
+    icon: fa-github-square
+    text: "@AnjaliSharma1234"
+    url: https://github.com/AnjaliSharma1234
   methods_col2:
   - template: contact_with_link
     type: contact_with_link
