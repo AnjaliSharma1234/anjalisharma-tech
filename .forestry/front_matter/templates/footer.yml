@@ -42,6 +42,8 @@ fields:
     label: Display Contact Methods
     description: Displays the contact methods section
     default: false
+    showOnly:
+      field: enabled
   - type: blocks
     name: methods_col1
     label: Contact Methods Column 1
