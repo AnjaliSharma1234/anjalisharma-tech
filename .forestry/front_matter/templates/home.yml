@@ -19,10 +19,6 @@ fields:
       file: 
       path: 
   label: SocialMedia
-- name: Logs
-  type: field_group
-  config: {}
-  label: SocialMedia
 - type: blocks
   name: sections
   label: Sections
@@ -49,6 +45,11 @@ fields:
     description: The bold text displayed at the top of the banner
     config:
       required: true
+  - name: profilephoto
+    type: file
+    config:
+      maxSize: 250
+    label: profilephoto
   - type: textarea
     name: subtitle
     label: Banner Subtitle
@@ -57,14 +58,5 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
-  - name: detailed_text
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Detailed text
 pages:
 - src/pages/index.md
