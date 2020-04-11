@@ -23,6 +23,21 @@ fields:
   type: field_group
   config: {}
   label: SocialMedia
+- type: blocks
+  name: sections
+  label: Sections
+  description: Home Sections
+  template_types:
+  - features
+  - posts
+  - cta
+- type: text
+  name: template
+  label: Template
+  hidden: true
+  default: home
+  config:
+    required: true
 - type: field_group
   name: banner
   label: Page Banner
@@ -42,30 +57,14 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
-  - type: field_group_list
-    name: actions
-    label: Banner Action Buttons
-    fields:
-    - type: include
-      name: include_action_huge
-      label: Action Huge
-      template: action_huge
+  - name: detailed_text
+    type: textarea
+    default: ''
     config:
-      labelField: label
-- type: blocks
-  name: sections
-  label: Sections
-  description: Home Sections
-  template_types:
-  - features
-  - posts
-  - cta
-- type: text
-  name: template
-  label: Template
-  hidden: true
-  default: home
-  config:
-    required: true
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Detailed text
 pages:
 - src/pages/index.md
