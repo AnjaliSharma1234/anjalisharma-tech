@@ -18,10 +18,10 @@ contact_methods:
     url: iamanjalisharmaa@gmail.com
   - template: contact_with_link
     type: contact_with_link
-    title: Twitter
-    icon: fa-twitter-square
-    text: "@AnjaliiSharmaaa"
-    url: https://twitter.com/AnjaliiSharmaaa
+    title: LinkedIn
+    icon: fa-linkedin-square
+    text: Anjali Sharma
+    url: https://www.linkedin.com/in/anjalisharmaaa/
   - template: contact_with_link
     type: contact_with_link
     title: Github
