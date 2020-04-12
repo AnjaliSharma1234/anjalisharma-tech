@@ -18,7 +18,7 @@ sections:
   - title: Software Developer
     icon:
       enabled: true
-      icon: fa-area-chart
+      icon: fa-code
       style: style1
     description: Lorem ipsum dolor sit amet interdum mollis sapien. Sed ac risus.
       Phasellus lacinia, ullamcorper laoreet, lectus arcu pulvinar lorem ipsum interdum
