@@ -27,7 +27,7 @@ sections:
   - title: Google Ads Top Marketer
     icon:
       enabled: true
-      icon: fa-pie-chart
+      icon: fa-line-chart
       style: style1
     description: Lorem ipsum dolor sit amet interdum mollis sapien. Sed ac risus.
       Phasellus lacinia, ullamcorper laoreet, lectus arcu pulvinar lorem ipsum interdum
