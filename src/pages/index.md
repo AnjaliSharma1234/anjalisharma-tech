@@ -53,14 +53,10 @@ sections:
     url: "/contact"
     is_primary: false
     is_scrolly: false
-  text: |2-
-        Software Development Intern at Twimbit (Mar 2020 - Present)
-
-        Google Ads Digital Marketer (Jan 2020 - Present)
-
-        Microsoft Student Partner Beta (Sept 2019 - Present)
-
-        Google TalentSprint Women Engineers Scholar (Jun 2019 - Present)
+  text: ">     Software Development Intern at Twimbit (Mar 2020 - Present)\n>     \n>
+    \    Google Ads Digital Marketer (Jan 2020 - Present)\n>     \n>     Microsoft
+    Student Partner Beta (Sept 2019 - Present)\n>     \n>     Google TSWE Scholar
+    (Jun 2019 - Present)"
   component: Cta
 - type: posts
   template: posts
