@@ -56,6 +56,8 @@ sections:
   text: |-
     > #### Software Development Intern at Twimbit (Mar 2020 - Present)
     >
+    > #### Open Source Contributor at GSSOC (Feb 2020 - Present)
+    >
     > #### Google Ads Digital Marketer (Jan 2020 - Present)
     >
     > #### Microsoft Student Partner Beta (Sept 2019 - Present)
