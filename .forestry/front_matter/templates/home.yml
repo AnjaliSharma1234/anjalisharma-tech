@@ -15,5 +15,10 @@ fields:
   - features
   - posts
   - cta
+- name: pageheader
+  type: text
+  config:
+    required: false
+  label: PageHeader
 pages:
 - src/pages/index.md
