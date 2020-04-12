@@ -36,7 +36,7 @@ sections:
   - title: Blogger and Storyteller
     icon:
       enabled: true
-      icon: fa-cube
+      icon: fa-podcast
       style: style3
     description: Lorem ipsum dolor sit amet interdum mollis sapien. Sed ac risus.
       Phasellus lacinia, ullamcorper laoreet, lectus arcu pulvinar lorem ipsum interdum
