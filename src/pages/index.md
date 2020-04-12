@@ -49,7 +49,7 @@ sections:
   section_id: cta
   title: WORK EXPERIENCE
   actions:
-  - label: View Fl
+  - label: Full Timeline
     url: "/contact"
     is_primary: false
     is_scrolly: false
