@@ -2,7 +2,7 @@
 title: Hi
 banner:
   title: ANJALI SHARMA
-  subtitle: ''
+  subtitle: "![](/images/IMG_20190815_130445_465.jpg)"
   actions:
   - url: ''
     is_primary: false
