@@ -37,7 +37,7 @@ sections:
     icon:
       enabled: true
       icon: fa-cube
-      style: style2
+      style: style3
     description: Lorem ipsum dolor sit amet interdum mollis sapien. Sed ac risus.
       Phasellus lacinia, ullamcorper laoreet, lectus arcu pulvinar lorem ipsum interdum
       sed tempus sagittis lorem feugiat. In fringilla diet consectetur. Morbi libero
