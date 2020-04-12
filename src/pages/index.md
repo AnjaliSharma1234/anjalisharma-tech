@@ -75,7 +75,7 @@ menus:
     title: Home
     weight: 1
 template: home
-socialmedia: ''
+socialmedia: main
 Logs: {}
 
 ---
