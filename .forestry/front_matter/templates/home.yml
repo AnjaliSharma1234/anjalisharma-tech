@@ -47,11 +47,6 @@ fields:
     description: The bold text displayed at the top of the banner
     config:
       required: true
-  - name: profilephoto
-    type: file
-    config:
-      maxSize: 250
-    label: profilephoto
   - type: textarea
     name: subtitle
     label: Banner Subtitle
