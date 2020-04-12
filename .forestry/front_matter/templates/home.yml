@@ -7,20 +7,6 @@ fields:
   label: Page Title
   config:
     required: true
-- name: socialmedia
-  type: select
-  default: main
-  config:
-    required: true
-    options: []
-    source:
-      type: documents
-      section: elements
-      file: src/pages/elements.md
-      path: menus
-  label: SocialMedia
-  showOnly:
-    field: socialmedia
 - type: blocks
   name: sections
   label: Sections
@@ -41,19 +27,10 @@ fields:
   label: Page Banner
   description: The banner displayed at the top of the landing page
   fields:
-  - type: text
-    name: title
-    label: Banner Title
-    description: The bold text displayed at the top of the banner
+  - name: name
+    type: text
     config:
-      required: true
-  - type: textarea
-    name: subtitle
-    label: Banner Subtitle
-    description: The text displayed below the banner title
-    config:
-      wysiwyg: true
-      schema:
-        format: markdown
+      required: false
+    label: Name
 pages:
 - src/pages/index.md
