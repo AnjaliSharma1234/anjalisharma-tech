@@ -31,10 +31,10 @@ contact_methods:
   methods_col2:
   - template: contact_with_link
     type: contact_with_link
-    title: LinkedIn
-    icon: fa-linkedin-square
-    url: https://www.linkedin.com/in/anjalisharmaaa/
-    text: Anjali Sharma
+    title: Twitter
+    icon: fa-twitter-square
+    url: https://twitter.com/AnjaliiSharmaaa
+    text: "@AnjaliiSharmaaa"
   - template: contact_with_link
     type: contact_with_link
     title: Medium Blog
