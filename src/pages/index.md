@@ -2,7 +2,7 @@
 title: Hi
 banner:
   title: ANJALI SHARMA
-  subtitle: ''
+  subtitle: A Renaissance Soul
   actions:
   - url: ''
     is_primary: false
