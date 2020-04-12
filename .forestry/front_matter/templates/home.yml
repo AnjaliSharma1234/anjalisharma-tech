@@ -22,18 +22,5 @@ fields:
   default: home
   config:
     required: true
-- name: pageheading
-  type: textarea
-  default: ANJALI SHARMA
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Pageheading
-- type: field_group
-  name: banner
-  label: Page Banner
-  description: The banner displayed at the top of the landing page
 pages:
 - src/pages/index.md
