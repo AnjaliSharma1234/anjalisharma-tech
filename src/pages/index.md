@@ -46,9 +46,9 @@ sections:
 - type: cta
   template: cta
   section_id: cta
-  title: Ultrices ante sagittis nunc senectus libero netus
+  title: WORK EXPERIENCE
   actions:
-  - label: How it works
+  - label: View Fl
     url: "/contact"
     is_primary: false
     is_scrolly: false
