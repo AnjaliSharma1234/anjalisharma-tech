@@ -24,12 +24,6 @@ sections:
       Phasellus lacinia, ullamcorper laoreet, lectus arcu pulvinar lorem ipsum interdum
       sed tempus sagittis lorem feugiat. In fringilla diet consectetur. Morbi libero
       orci, consectetur in odio maximus felis.
-  - title: Digital Marketer
-    icon:
-      enabled: true
-      icon: fa-line-cchart
-      style: style3
-    description: ''
   - title: Google Ads Top Marketer
     icon:
       enabled: true
