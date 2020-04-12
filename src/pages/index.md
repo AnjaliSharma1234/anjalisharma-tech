@@ -26,7 +26,7 @@ sections:
       orci, consectetur in odio maximus felis.
   - title: Digital Marketer
     icon:
-      enabled: false
+      enabled: true
       icon: fa-line-cchart
       style: style3
     description: ''
