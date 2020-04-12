@@ -53,11 +53,10 @@ sections:
     url: "/contact"
     is_primary: false
     is_scrolly: false
-  text: Lorem ipsum dolor sit amet interdum mollis sapien. Sed ac risus. Phasellus
-    lacinia, ullamcorper laoreet, lectus arcu pulvinar lorem ipsum interdum sed tempus
-    sagittis lorem feugiat. In fringilla diet consectetur. Morbi libero orci, consectetur
-    in odio maximus felis. Lorem ipsum ullamcorper laoreet, lectus arcu pulvinar lorem
-    ipsum interdum sed tempus sagittis lorem feugiat. In fringilla diet consectetur.
+  text: "**Software Development Intern at Twimbit** _( Mar 2020 - Present)_\n\n**Google
+    Ads Digital Marketer** _(Jan 2020 - Present_)\n\n**Google TSWE Scholar** _(Jun
+    2019 - Present)_\n\n**Microsoft Student Partner Beta** _(Sept 2019 - Present)_\n\n**Startup
+    Coordinator at MHRD IIC-VIT** _( Sept 2019 - Present)_ "
   component: Cta
 - type: posts
   template: posts
