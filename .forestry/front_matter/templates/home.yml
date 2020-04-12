@@ -35,11 +35,5 @@ fields:
   name: banner
   label: Page Banner
   description: The banner displayed at the top of the landing page
-  fields:
-  - name: name
-    type: text
-    config:
-      required: false
-    label: Name
 pages:
 - src/pages/index.md
