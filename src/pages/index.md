@@ -60,7 +60,7 @@ sections:
 
     **Microsoft Student Partner Beta** _(Sept 2019 - Present)_
 
-    **Google TalentSprint Women Engineer Scholar** _(Jun 2019 - Present)_
+    **Google TalentSprint Women Engineers Scholar** _(Jun 2019 - Present)_
   component: Cta
 - type: posts
   template: posts
