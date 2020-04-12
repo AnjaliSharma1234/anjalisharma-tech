@@ -60,8 +60,6 @@ sections:
     >
     > #### Microsoft Student Partner Beta (Sept 2019 - Present)
     >
-    > #### Startup Co-ordinator at MHRD-IIC (Sept 2019 - Present)
-    >
     > #### Google TSWE Scholar (Jun 2019 - Present)
   component: Cta
 - type: posts
