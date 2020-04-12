@@ -30,7 +30,7 @@ sections:
       icon: fa-line-cchart
       style: style3
     description: ''
-  - title: StorytelHER
+  - title: Google Ads Top Marketer
     icon:
       enabled: true
       icon: fa-pie-chart
