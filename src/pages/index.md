@@ -10,6 +10,7 @@ banner:
     is_huge: false
   detailed_text: ''
   profilephoto: ''
+  name: ANJALI SHARMA
 sections:
 - type: features
   template: features
