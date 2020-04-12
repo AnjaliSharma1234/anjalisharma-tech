@@ -54,13 +54,13 @@ sections:
     is_primary: false
     is_scrolly: false
   text: |-
-    **Software Development Intern at Twimbit** _( Mar 2020 - Present)_
+    **Software Development Intern at Twimbit**       _( Mar 2020 - Present)_
 
-    **Google Ads Digital Marketer** _(Jan 2020 - Present_)
+    **Google Ads Digital Marketer**       _(Jan 2020 - Present_)
 
-    **Microsoft Student Partner Beta** _(Sept 2019 - Present)_
+    **Microsoft Student Partner Beta**     _(Sept 2019 - Present)_
 
-    **Google TalentSprint Women Engineers Scholar** _(Jun 2019 - Present)_
+    **Google TalentSprint Women Engineers Scholar**     _(Jun 2019 - Present)_
   component: Cta
 - type: posts
   template: posts
