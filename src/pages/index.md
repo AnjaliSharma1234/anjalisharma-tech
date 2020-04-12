@@ -61,7 +61,7 @@ sections:
 - type: posts
   template: posts
   section_id: posts
-  title: 'Highlights '
+  title: 'Top Highlights '
   subtitle: This section includes my recent work experiences and engagements
   component: Posts
 menus:
