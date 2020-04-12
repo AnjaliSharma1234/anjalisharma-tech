@@ -61,8 +61,8 @@ sections:
 - type: posts
   template: posts
   section_id: posts
-  title: Convallis amet interdum
-  subtitle: Sed magna in pharetra ultricies dolor sit amet consequat adipiscing lorem.
+  title: 'Highlights '
+  subtitle: This section includes my recent work experiences and engagements
   component: Posts
 menus:
   main:
