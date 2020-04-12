@@ -30,7 +30,7 @@ sections:
       icon: ''
       style: ''
     description: ''
-  - title: Speaker
+  - title: StorytelHER
     icon:
       enabled: true
       icon: fa-pie-chart
