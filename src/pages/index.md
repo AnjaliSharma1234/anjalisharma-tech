@@ -27,8 +27,8 @@ sections:
   - title: Digital Marketer
     icon:
       enabled: false
-      icon: ''
-      style: ''
+      icon: fa-line-cchart
+      style: style3
     description: ''
   - title: StorytelHER
     icon:
