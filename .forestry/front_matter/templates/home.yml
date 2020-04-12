@@ -32,5 +32,14 @@ fields:
     config:
       required: false
     label: Name
+- name: pageheading
+  type: textarea
+  default: ANJALI SHARMA
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Pageheading
 pages:
 - src/pages/index.md
