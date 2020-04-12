@@ -9,7 +9,7 @@ banner:
     is_scrolly: false
     is_huge: false
   detailed_text: ''
-  profilephoto: "/images/IMG_20190815_130445_465.jpg"
+  profilephoto: ''
 sections:
 - type: features
   template: features
