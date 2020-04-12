@@ -15,12 +15,5 @@ fields:
   - features
   - posts
   - cta
-- type: text
-  name: template
-  label: Template
-  hidden: true
-  default: home
-  config:
-    required: true
 pages:
 - src/pages/index.md
