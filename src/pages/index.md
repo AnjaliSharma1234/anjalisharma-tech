@@ -28,7 +28,7 @@ sections:
     icon:
       enabled: true
       icon: fa-line-chart
-      style: style1
+      style: style2
     description: Lorem ipsum dolor sit amet interdum mollis sapien. Sed ac risus.
       Phasellus lacinia, ullamcorper laoreet, lectus arcu pulvinar lorem ipsum interdum
       sed tempus sagittis lorem feugiat. In fringilla diet consectetur. Morbi libero
