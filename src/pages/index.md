@@ -55,8 +55,9 @@ sections:
     is_scrolly: false
   text: ">     Software Development Intern at Twimbit (Mar 2020 - Present)\n>     \n>
     \    Google Ads Digital Marketer (Jan 2020 - Present)\n>     \n>     Microsoft
-    Student Partner Beta (Sept 2019 - Present)\n>     \n>     Google TSWE Scholar
-    (Jun 2019 - Present)"
+    Student Partner Beta (Sept 2019 - Present)\n>     \n>     Startup Co-ordinator
+    at MHRD-IIC (Sept 2019 - Present)\n>     \n>     Google TSWE Scholar (Jun 2019
+    - Present)"
   component: Cta
 - type: posts
   template: posts
